@@ -46,6 +46,7 @@ This creates color pickers in the selected objects. `callback` is optional and c
 
 * _DOM Node_, _jQuery object_ or _jQuery selector_: the color picker will be linked to the selected element(s) by syncing the value (for form elements) and color (all elements).
 * _Function_: this function will be called whenever the user chooses a different color.
+* _Configuration Object_: Takes two keys: fbElement (a jQuery object) and fbChange (a function invoked when a new color is chosen. When invoked, `this` will be the HTML element and the argument will be the new color).
 
 ### Object
 
