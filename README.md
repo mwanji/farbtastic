@@ -78,6 +78,11 @@ The optional `callback` argument behaves exactly as for the jQuery method.
 Changelog
 ---------
 
+### 1.4_inet_edge - 2013/01/10
+
+* A change listener can be passed in a configuration object.
+* Background color is removed when input is empty.
+
 ### 1.3u (unofficial) - 2010/2/17
 
 * Updated style to use anonymous function wrapper per http://docs.jquery.com/Plugins/Authoring#Custom_Alias.
